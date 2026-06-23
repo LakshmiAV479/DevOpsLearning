@@ -28,7 +28,7 @@ jobs:
 
           
       - name: Build Docker Image
-        run: docker build -t springboot-app .
+        run: docker build -t springboot-app ./demo
 
 
       - name: Step 4 - Run tests
